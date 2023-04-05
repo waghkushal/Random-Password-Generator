@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(166, 24, 189, 1.0);
+    background: -webkit-linear-gradient(top left, rgba(166, 24, 189, 1.0), rgba(210, 154, 221, 1.0));
+    background: -moz-linear-gradient(top left, rgba(166, 24, 189, 1.0), rgba(210, 154, 221, 1.0));
+    background: linear-gradient(to bottom right, rgba(166, 24, 189, 1.0), rgba(210, 154, 221, 1.0));
+}
+
+.container {
+    height: 40vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 0.6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    box-shadow: 3px 6px 31px -4px rgba(240, 195, 240, 1);
+}
+
+.heading {
+    font-size: 1.6rem;
+    color: rgb(236, 22, 172);
+}
+
+button {
+    background-color: rgb(236, 22, 172);
+    color: white;
+    font-size: 1rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.copyBtn {
+    margin-left: 0.6rem;
+}
+
+.para {
+    height: 10%;
+    width: 60%;
+    background-color: rgb(236, 22, 172);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    letter-spacing: 0.2rem;
+    border: none;
+    user-select: none;
+    outline: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+::placeholder {
+    color: rgb(206, 199, 199);
+    font-size: 0.7rem;
+}
